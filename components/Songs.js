@@ -11,7 +11,6 @@ function Songs() {
         <div className="text-white p-8 flex flex-col space-y-2 pb-28">
          {playlist?.tracks.items.map((track, order)=>(
              <Song key={track.track.id} track={track} order={order}/>
-             
          ))}
         </div>
     )
